@@ -1,6 +1,5 @@
 provider "aws" {
   region  = "${var.rgdefault}"
-  shared_credentials_file = "~/.aws/credentials"
   profile = "heb"
   version = "~> 2.0"
 }
