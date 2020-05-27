@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "${var.rgdefault}"
-  profile = "hebara"
+  profile = "default"
   version = "~> 2.0"
 }
 
